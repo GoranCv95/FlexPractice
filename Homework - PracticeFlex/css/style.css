@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(0, 99, 101);
+}
+
+.card {
+  margin: 3.5rem 0;
+  width: 60%;
+  box-shadow: 0 0 3rem #000;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/***************************/
+/** SECTION INFO ***/
+/**************************/
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  width: 30%;
+}
+
+.card-img {
+  background-color: lightgreen;
+}
+
+.card-about {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-about {
+  padding: 2rem 0.5rem 3.5rem;
+}
+
+.card-title {
+  padding: 1.5rem 0 2rem 1rem;
+  font-size: 3rem;
+}
+
+.card-text {
+  font-size: 1.25rem;
+}
+
+/***************************/
+/** SECTION DETAILS ***/
+/**************************/
+
+.card-data {
+  width: 70%;
+  background-color: #fff;
+}
+
+.data-basic {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.data-title {
+  padding: 3rem 0 1.8rem 2rem;
+  font-size: 2rem;
+  color: rgb(8, 154, 154);
+}
+
+.data-text {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+.data-infos {
+  display: flex;
+  flex-direction: row;
+}
+
+.data-info {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #aaa;
+}
+
+.data-info span {
+  color: #000;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.data-education {
+  height: 40%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.data-education-year {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.data-education-period {
+  color: rgb(8, 154, 154);
+  font-size: 1.4rem;
+}
+
+.data-education-course {
+  font-size: 1.3rem;
+  padding: 0 0 2rem;
+  border-bottom: 2px solid #aaa;
+}
+
+.data-education-year:last-child p:last-child{
+  border: none;
+}
+
